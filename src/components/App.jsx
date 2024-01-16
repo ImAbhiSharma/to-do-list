@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ToDoItem from "./To-do-items";
 
 function App() {
   const [listItem, updateList] = useState("");
@@ -29,13 +30,17 @@ function App() {
           <span>Add</span>
         </button>
       </div>
-      <div>
-        <ul>
-          {items.map((todoItem) => (
-            <li key={todoItem}>{todoItem}</li>
-          ))}
-        </ul>
-      </div>
+      
+      <ul>
+          {
+            items.map((todoItem) => (
+        
+            <ToDoItem text={todoItem} />
+            )
+         )}
+
+      </ul>
+
     </div>
   );
 }
