@@ -1,3 +1,9 @@
+# About Project
+
+To-do List is a react based project in which users can enter the to-do items as per their needs and also they can checkmark the item by clicking on the same. This project is completely based on React components in which Hooks and props are used for rendering and updation of data.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
